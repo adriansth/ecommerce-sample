@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
      return(
-          <div className='w-screen'>
+          <div className='w-screen fixed z-[3] shadow-sm'>
                {/* logo and icons section */}
-               <div className='w-full flex justify-between items-center py-5 px-20'>
+               <div className='w-full flex justify-between items-center py-5 px-20 bg-white'>
                     <div>
                          <span className='font-bold text-3xl text-gray-700'>BestShop</span>
                     </div>
